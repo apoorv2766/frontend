@@ -47,6 +47,8 @@ const SignUp = () => {
               onSubmit={onSubmitHandler}
             >
               <div>
+              <div>
+
                 <label
                   for="email"
                   className="block mb-2 text-sm font-medium 
@@ -64,7 +66,7 @@ const SignUp = () => {
                             block w-full
                             p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your First Name"
                   required=""
                   onChange={onChangeHandler}
                 />
@@ -87,7 +89,7 @@ const SignUp = () => {
                               block w-full
                               p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                               dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your Last Name"
                   required=""
                   onChange={onChangeHandler}
                 />
@@ -110,7 +112,7 @@ const SignUp = () => {
                             block w-full
                             p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your Age"
                   required=""
                   onChange={onChangeHandler}
                 />
@@ -134,7 +136,6 @@ const SignUp = () => {
                            text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600
                              dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 m-3"
-                  placeholder="name@company.com"
                   onChange={onChangeHandler}
                 />
                 <span className="text-white">Female</span>
@@ -147,7 +148,6 @@ const SignUp = () => {
                            text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600
                           m-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
                   onChange={onChangeHandler}
                 />
                 <span className="text-white">Others</span>
@@ -160,7 +160,6 @@ const SignUp = () => {
                            text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600
                            m-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
                   onChange={onChangeHandler}
                 />
               </div>
@@ -182,7 +181,7 @@ const SignUp = () => {
                             block w-full
                             p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your Email"
                   required=""
                   onChange={onChangeHandler}
                 />
@@ -204,12 +203,12 @@ const SignUp = () => {
                             block w-full
                             p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your ID"
                   required=""
                   onChange={onChangeHandler}
                 />
               </div>
-              <div>
+
                 <label
                   for="email"
                   className="block mb-2 text-sm font-medium text-gray-900
@@ -227,13 +226,11 @@ const SignUp = () => {
                             block w-full
                             p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
                              dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="name@company.com"
+                  placeholder="Enter Your Mobile Number"
                   required=""
                   onChange={onChangeHandler}
                 />
-              </div>
-
-              <div>
+            <div>
                 <label
                   for="password"
                   className="block mb-2 text-sm font-medium text-gray-900
@@ -274,21 +271,22 @@ const SignUp = () => {
               </div>
               <div className="flex items-start"></div>
               <button
-                className="w-full text-black bg-primary-600 hover:bg-primary-700
+                className="w-full text-white bg-primary-600 hover:bg-primary-700
                        focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm 
                        px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
               >
                 Register
               </button>
               <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                Create Your Account?{" "}
+                Create Your Account?
                 <a
                   href="#"
-                  className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                  className="font-medium text-primary-600 hover:underline text-white"
                 >
                   +SignUp Here
                 </a>
               </p>
+              </div>
             </form>
           </div>
         </div>
